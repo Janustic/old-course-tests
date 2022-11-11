@@ -1,0 +1,95 @@
+:root{
+    --normal-h : 50px;
+    --normal-fs : 13px;
+}
+body{
+    background-color: #ede7e7;
+}
+.btn{
+    display: inline-block;
+    background-color: #000000;
+    border-color: 2px solid black;
+    height: var(--normal-h);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    color:#ffffff;
+    padding: 0 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    line-height: var(--normal-h);
+    box-sizing: border-box;
+    font-size: var(--normal-fs);
+}
+.mb{
+    margin-bottom: 5px;
+    /* margin: 4px; */
+}
+.btn-primary{
+    background-color: #7209b7;
+    border: 2px solid #7209b7 ;
+}
+.btn-secoundary{
+    background-color: #454343;
+    border-color: 2px solid #454343;
+}
+.btn-light{
+    background-color: #ffffff;
+    border-color: 2px solid #ffffff;
+    color: #000000;
+}
+.btn-dark{
+    background-color: #000000;
+    border-color: 2px solid #000000;
+}
+.btn-acent{
+    background-color: #7b1212;
+    border-color: 2px solid #7b1212;
+}
+.btn-haha{
+    background-color: #14175d;
+    border-color: 2px solid #14175d;
+}
+.btn-outline{
+    display: inline-block;
+    background-color:transparent;
+    
+    height: var(--normal-h);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    
+    padding: 0 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    line-height: var(--normal-h);
+    box-sizing: border-box;
+    font-size: var(--normal-fs);
+}
+.btn-outline-primary{
+    border: 2px solid #7209b7 ;
+    color: #7209b7;
+}
+.btn-outline-secoundary{
+    border: 2px solid #454343 ;
+    color: #454343;
+}
+.btn-outline-light{
+    
+    border-color: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: #000000;
+}
+.btn-outline-dark{
+    color: #000000;
+    border-color: 2px solid #000000;
+}
+.btn-outline-acent{
+    color: #7b1212;
+    border-color: 2px solid #7b1212;
+}
+.btn-outline-haha{
+    color: #1e24d5;
+    border-color: 2px solid #1e24d5;
+}
+.pill{
+    border-radius: 25px;
+}
